@@ -12,7 +12,14 @@
  * @return {TreeNode}
  */
 
+/** 
 
+Approach : Reccursion 
+step 1 : go to  each node if node.val is searching value return the node
+step 2 : hanlde edge case where val not found in tree
+step 3 : hanlde edge cases where root is empty
+
+*/
 
 function searchBST(root,val){
 
